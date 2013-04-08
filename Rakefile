@@ -8,6 +8,10 @@ namespace :db do
   task :setup
 end
 
+# Code below is used for one-time setup on Shelly Cloud and can be removed
+# afterwards.
+# To deploy a new version of code you only need to git push to the Shelly
+# Cloud remote.
 desc "Setup this application on Shelly Cloud"
 task :shellyit do
   code_name = get_code_name
