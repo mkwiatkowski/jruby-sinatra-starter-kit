@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'haml'
-gem 'puma', "~> 2.0.0.b7"
+gem 'puma'
 gem 'rake'
 gem 'sinatra'
 
