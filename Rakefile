@@ -22,7 +22,7 @@ task :shellyit do
   sh "git add Cloudfile"
   sh "git commit -m 'Added Cloudfile'"
   puts "Pushing the code to Shelly..."
-  sh "git push #{code_name} master"
+  sh "git push shelly master"
   puts "Starting the cloud..."
   sh "shelly start"
 end
